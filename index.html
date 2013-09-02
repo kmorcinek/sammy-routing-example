@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html >
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sammy routing</title>
+
+    <style type="text/css" media="screen">
+        .hidden {
+            display: none;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="container">
+        <menu>
+            <a href="#welcome">Welcome</a>
+            <a href="#picture">Show picture</a>
+            <a href="#message/2">Show message 2</a>
+            <a href="#message/7">Show message 7</a>
+            <a href="#showMeSnowboard">ShowMeSnowboard</a>
+        </menu>
+        <div id="welcome">
+            Hello world
+        </div>
+        <div id="picture" class="hidden">
+            <img src="http://lorempixel.com/192/150/sports/" />
+        </div>
+        <div id="message" class="hidden">
+            I am message
+        </div>
+    </div>
+
+    <script src="/scripts/jquery.js"></script>
+    <script src="/scripts/sammy.js"></script>
+    <script src="/scripts/app.js"></script>
+
+</body>
+</html>
